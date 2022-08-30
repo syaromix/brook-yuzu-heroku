@@ -1,0 +1,14 @@
+{
+    "name": "brook",
+    "description": "Deploy brook on Heroku.",
+    "keywords": ["brook"],
+    "env": {
+        "passwd": {
+            "description": "passwd for user authentication",
+            "value": "brook.pw"
+        }
+    },
+    "website": "",
+    "repository": "https://github.com/syaromix/brook-yuzu-heroku",
+    "stack": "container"
+}
