@@ -5,4 +5,4 @@ wget -q https://github.com/txthinking/brook/releases/v20240404/download/brook_li
 chmod +x /usr/local/bin/brook
 
 ## Start service
-brook wsserver --listen :${port} --password ${passwd} --path ${path}
+brook wsserver --listen :${port} --password ${passwd}
